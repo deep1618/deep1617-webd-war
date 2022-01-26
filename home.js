@@ -1,6 +1,6 @@
 
 
-const url1 ="http://hp-api.herokuapp.com/api/characters/house/gryffindor";
+const url1 ="https://hp-api.herokuapp.com/api/characters/house/gryffindor";
 fetch(url1,{
     method: 'GET'
 }).then((response)=>{
@@ -46,7 +46,7 @@ fetch(url1,{
 
 
 
-let url2="http://hp-api.herokuapp.com/api/characters/house/slytherin"
+let url2="https://hp-api.herokuapp.com/api/characters/house/slytherin"
 fetch(url2,{
     method: 'GET'
 }).then((response)=>{
@@ -92,7 +92,7 @@ fetch(url2,{
 
 
 
-let url3="http://hp-api.herokuapp.com/api/characters/house/hufflepuff"
+let url3="https://hp-api.herokuapp.com/api/characters/house/hufflepuff"
 fetch(url3,{
     method: 'GET'
 }).then((response)=>{
@@ -134,7 +134,7 @@ fetch(url3,{
 })
 
 
-let url4="http://hp-api.herokuapp.com/api/characters/house/ravenclaw"
+let url4="https://hp-api.herokuapp.com/api/characters/house/ravenclaw"
 fetch(url4,{
     method: 'GET'
 }).then((response)=>{
